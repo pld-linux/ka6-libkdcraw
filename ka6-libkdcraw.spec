@@ -1,18 +1,18 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeappsver	24.08.0
+%define		kdeappsver	24.08.1
 %define		kframever	5.94.0
 %define		qtver		5.15.2
 %define		kaname		libkdcraw
 Summary:	Libkdcraw
 Name:		ka6-%{kaname}
-Version:	24.08.0
+Version:	24.08.1
 Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Libraries
 Source0:	https://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	b9df8a737f97bad34ae15602c8933ce9
+# Source0-md5:	7036a09ea5dce79916cc7b31c6e8e1d4
 URL:		http://www.kde.org/
 BuildRequires:	Qt6Core-devel >= %{qtver}
 BuildRequires:	Qt6Gui-devel
